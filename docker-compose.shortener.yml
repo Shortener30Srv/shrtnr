@@ -1,0 +1,13 @@
+version: '1.1'
+services:
+  shortener_srv:
+    container_name: app_shortener
+    build: ./app_shortener
+    expose:
+      - 8000        
+    networks:
+      - nginx_network     
+      
+networks:
+  nginx_network:
+    driver: bridge    

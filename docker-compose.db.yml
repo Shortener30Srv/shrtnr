@@ -1,0 +1,19 @@
+version: '1.1'
+services:
+  db_shortener_srv:
+    container_name: db_shortener_srv
+    build: ./postgres_srv
+    image: postgres:13.0
+    expose:
+      - 5432       
+    environment:
+      - POSTGRES_USER=shortner_user
+      - POSTGRES_PASSWORD=sh()rTner_8S
+      - POSTGRES_DB=shortener_db
+    tty: true
+    networks:
+      - nginx_network   
+
+networks:
+  nginx_network:
+    driver: bridge    
