@@ -18,7 +18,7 @@ from src.db.models import ShortLink
 
 TARGET_SEQUENCE = "QWERLTYUIOPyASDFGHJKZXCVBNMx0123456789qwertuiopasdfghjklzcvbnm-._~"
 TARGET_BASE = 66
-URI_DOMAIN = 'https://const.com/'
+URI_DOMAIN = 'https://shrt.ru/'
 
 
 class UrlValidation:
