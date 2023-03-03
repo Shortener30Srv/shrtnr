@@ -30,7 +30,7 @@ user@station:~$ sudo bash remove_compose_containers.sh
     • Получение полного url (на вход короткий url, в ответ полный url)
 
 Пример полного url - https://music.yandex.ru/album/5307396/track/38633706
-Пример короткого url - const.com/A8z1 
+Пример короткого url - shrt.ru/A8z1 
 
 БД PostgreSQL (желательно) или SQLite Код должна возможность запустить локально или в докере, как удобнее
 
